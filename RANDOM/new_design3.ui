@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1660</width>
+    <height>1064</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="0,0">
+    <property name="spacing">
+     <number>12</number>
+    </property>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>12</number>
+      </property>
+      <property name="leftMargin">
+       <number>12</number>
+      </property>
+      <property name="topMargin">
+       <number>12</number>
+      </property>
+      <property name="rightMargin">
+       <number>12</number>
+      </property>
+      <property name="bottomMargin">
+       <number>12</number>
+      </property>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,0,2">
+        <property name="spacing">
+         <number>12</number>
+        </property>
+        <property name="leftMargin">
+         <number>12</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>12</number>
+        </property>
+        <property name="bottomMargin">
+         <number>12</number>
+        </property>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QLabel" name="label_date">
+            <property name="maximumSize">
+             <size>
+              <width>189</width>
+              <height>19</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font:14pt &quot;Chakra Petch&quot;;
+color: rgb(192, 192, 192);</string>
+            </property>
+            <property name="text">
+             <string>2 Ağustos 2024 28:34:05</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Expanding</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_power">
+            <property name="minimumSize">
+             <size>
+              <width>180</width>
+              <height>180</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>180</width>
+              <height>180</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#frame_power{
+background-color: qconicalgradient(cx:0.5, cy:0.5, angle:90, stop:0.319 rgba(255, 255, 255, 0), stop:0.320 rgba(69, 150, 255, 255));
+border-radius:90px
+}</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QFrame" name="frame_full_2">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>160</width>
+               <height>160</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>160</width>
+               <height>160</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>160</width>
+               <height>160</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#frame_full_2{
+	
+	
+	background-color: rgb(50, 50, 50);
+	border-radius:80px
+}</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <widget class="QLabel" name="label_4">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>50</y>
+                <width>121</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>121</width>
+                <height>41</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>121</width>
+                <height>41</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">#label_4{
+font: 15pt &quot;Microsoft Sans Serif&quot;;
+font-weight:bold;
+color: rgb(108, 195, 255);
+}
+</string>
+              </property>
+              <property name="text">
+               <string>GÜÇ
+TÜKETİMİ</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_watt">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>90</y>
+                <width>161</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>161</width>
+                <height>20</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>161</width>
+                <height>20</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">#label_watt{
+font: 16pt &quot;Microsoft Sans Serif&quot;;
+}</string>
+              </property>
+              <property name="text">
+               <string>560 W</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="Line" name="line_2">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>80</y>
+                <width>141</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>141</width>
+                <height>20</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>141</width>
+                <height>20</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Preferred</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="Line" name="line_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Expanding</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_temp">
+            <property name="minimumSize">
+             <size>
+              <width>170</width>
+              <height>230</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>170</width>
+              <height>230</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#frame_temp{
+image: url(:/temp/Untitled design-6.png);
+}</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QFrame" name="frame_full">
+             <property name="geometry">
+              <rect>
+               <x>63</x>
+               <y>160</y>
+               <width>44</width>
+               <height>44</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>44</width>
+               <height>44</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>44</width>
+               <height>44</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#frame_full{
+	background-color: rgb(69, 150, 255);
+	border-radius:22px
+}</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+            </widget>
+            <widget class="QFrame" name="frame_t1">
+             <property name="geometry">
+              <rect>
+               <x>75</x>
+               <y>30</y>
+               <width>8</width>
+               <height>140</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>8</width>
+               <height>140</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>8</width>
+               <height>140</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#frame_t1{
+	background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0.400 rgba(69, 150, 255, 255), stop:0.401 rgba(255, 255, 255, 0));
+}</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::NoFrame</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+            </widget>
+            <widget class="QFrame" name="frame_t2">
+             <property name="geometry">
+              <rect>
+               <x>86</x>
+               <y>30</y>
+               <width>8</width>
+               <height>140</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>8</width>
+               <height>140</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>8</width>
+               <height>140</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#frame_t2{
+	background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0.500 rgba(69, 150, 255, 255), stop:0.501 rgba(255, 255, 255, 0));
+}</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::NoFrame</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label">
+             <property name="geometry">
+              <rect>
+               <x>45</x>
+               <y>20</y>
+               <width>21</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>21</width>
+               <height>21</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>21</width>
+               <height>21</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#label{
+font:700 22pt &quot;Chakra Petch&quot;;
+	color: rgb(118, 214, 255);
+}</string>
+             </property>
+             <property name="text">
+              <string>T1</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_2">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>20</y>
+               <width>31</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>31</width>
+               <height>21</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>31</width>
+               <height>21</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#label_2{
+font:700 22pt &quot;Chakra Petch&quot;;
+	color: rgb(118, 214, 255);
+}</string>
+             </property>
+             <property name="text">
+              <string>T2</string>
+             </property>
+            </widget>
+            <zorder>frame_t1</zorder>
+            <zorder>frame_t2</zorder>
+            <zorder>frame_full</zorder>
+            <zorder>label</zorder>
+            <zorder>label_2</zorder>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="spacing">
+           <number>-1</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="graph_position">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="graph_speed">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="graph_acc">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="graph_ori">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_info">
+            <property name="styleSheet">
+             <string notr="true">#label_info{
+font: 700 16pt &quot;Chakra Petch&quot;;
+}</string>
+            </property>
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="spacing">
+         <number>12</number>
+        </property>
+        <property name="leftMargin">
+         <number>12</number>
+        </property>
+        <property name="topMargin">
+         <number>12</number>
+        </property>
+        <property name="rightMargin">
+         <number>12</number>
+        </property>
+        <property name="bottomMargin">
+         <number>12</number>
+        </property>
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <widget class="QLabel" name="label_11">
+             <property name="styleSheet">
+              <string notr="true">font:18pt &quot;Chakra Petch&quot;;
+color: rgb(192, 192, 192);</string>
+             </property>
+             <property name="text">
+              <string>Zaman
+(saniye)</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_time">
+             <property name="font">
+              <font>
+               <family>Chakra Petch</family>
+               <pointsize>30</pointsize>
+               <italic>false</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+font: 700 30pt &quot;Chakra Petch&quot;;
+color: rgb(192, 192, 192);</string>
+             </property>
+             <property name="text">
+              <string>47</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_2">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QLabel" name="label_16">
+             <property name="styleSheet">
+              <string notr="true">font:18pt &quot;Chakra Petch&quot;;
+color: rgb(122, 129, 255);</string>
+             </property>
+             <property name="text">
+              <string>Şerit Sayısı</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_serit">
+             <property name="styleSheet">
+              <string notr="true">font:700 30pt &quot;Chakra Petch&quot;;
+color: rgb(122, 129, 255);</string>
+             </property>
+             <property name="text">
+              <string>3</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_3">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <item>
+            <widget class="QLabel" name="label_18">
+             <property name="styleSheet">
+              <string notr="true">font:18pt &quot;Chakra Petch&quot;;
+color: rgb(255, 38, 0);</string>
+             </property>
+             <property name="text">
+              <string>Batarya Durumu</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_batarya">
+             <property name="styleSheet">
+              <string notr="true">font:700 30pt &quot;Chakra Petch&quot;;
+color: rgb(255, 38, 0);</string>
+             </property>
+             <property name="text">
+              <string>50</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_4">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <item>
+            <widget class="QLabel" name="label_20">
+             <property name="styleSheet">
+              <string notr="true">font:18pt &quot;Chakra Petch&quot;;
+color: rgb(118, 214, 255);</string>
+             </property>
+             <property name="text">
+              <string>Veri Gönderim/Alım Hızı</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_data_speed">
+             <property name="styleSheet">
+              <string notr="true">font:700 30pt &quot;Chakra Petch&quot;;
+color: rgb(118, 214, 255);</string>
+             </property>
+             <property name="text">
+              <string>2</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_5">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_8">
+           <item>
+            <widget class="QLabel" name="label_22">
+             <property name="styleSheet">
+              <string notr="true">font:18pt &quot;Chakra Petch&quot;;
+color: rgb(255, 251, 0);</string>
+             </property>
+             <property name="text">
+              <string>Araç Durumu</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_stat">
+             <property name="styleSheet">
+              <string notr="true">font:700 30pt &quot;Chakra Petch&quot;;
+color: rgb(148, 17, 0);</string>
+             </property>
+             <property name="text">
+              <string>OFF</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <property name="spacing">
+         <number>12</number>
+        </property>
+        <property name="leftMargin">
+         <number>12</number>
+        </property>
+        <property name="topMargin">
+         <number>12</number>
+        </property>
+        <property name="rightMargin">
+         <number>12</number>
+        </property>
+        <property name="bottomMargin">
+         <number>12</number>
+        </property>
+        <item>
+         <spacer name="horizontalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Preferred</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_start">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>60</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+background-color: rgb(146, 199, 113);
+background-image: linear-gradient(to bottom, #E57373, #E53935);
+color: rgb(255, 217, 200);
+font: 22pt;
+font-weight: bold;
+border-radius: 10px;
+border: 6px solid #50A140;
+padding: 10px;
+text-align: center;
+}
+
+QPushButton:hover {
+background-color: #50A140;
+background-image: linear-gradient(to bottom, #EF5350, #C62828);
+border: 2px solid #3B7920;
+}
+
+QPushButton:pressed{
+background-color: #50A140;
+background-image: linear-gradient(to bottom, #EF5350, #B71C1C);
+border: 2px solid  #3B7920;
+padding-left: 6p;
+padding-top: 6px;
+}
+
+QPushButton:disabled{
+background-color: #EOEOEO;
+color: #AAAAAA;
+border: 2px solid #CCCCCC;
+}</string>
+          </property>
+          <property name="text">
+           <string>BAŞLA</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../../../../Documents/hyperush/pic.qrc">
+            <normaloff>:/basla/basla.png</normaloff>:/basla/basla.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Preferred</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_stop">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>60</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+background-color: #E74C3C;
+background-image: linear-gradient(to bottom, #E57373, #E53935);
+color: rgb(255, 217, 200);
+font: 22pt;
+font-weight: bold;
+border-radius: 10px;
+border: 6px solid #B22222;
+padding: 10px;
+text-align: center;
+}
+
+QPushButton:hover {
+background-color: #D32F2F;
+background-image: linear-gradient(to bottom, #EF5350, #C62828);
+border: 2px solid #8B0000;
+}
+
+QPushButton:pressed{
+background-color: #C62828;
+background-image: linear-gradient(to bottom, #EF5350, #B71C1C);
+border: 2px solid #880000;
+padding-left: 6p;
+padding-top: 6px;
+}
+
+QPushButton:disabled{
+background-color: #EOEOEO;
+color: #AAAAAA;
+border: 2px solid #CCCCCC;
+}</string>
+          </property>
+          <property name="text">
+           <string>STOP</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../../../../Documents/hyperush/pic.qrc">
+            <normaloff>:/dur/dur.png</normaloff>:/dur/dur.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Preferred</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_go">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>60</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+background-color: #5296D5;
+background-image: linear-gradient(to bottom, #E57373, #E53935);
+color: rgb(255, 217, 200);
+font: 22pt;
+font-weight: bold;
+border-radius: 10px;
+border: 6px solid #437EB4;
+padding: 10px;
+text-align: center;
+}
+
+QPushButton:hover {
+background-color: #437EB4;
+background-image: linear-gradient(to bottom, #EF5350, #C62828);
+border: 2px solid #3972AE;
+}
+
+QPushButton:pressed{
+background-color: #437EB4;
+background-image: linear-gradient(to bottom, #EF5350, #B71C1C);
+border: 2px solid   #3972AE;
+padding-left: 6p;
+padding-top: 6px;
+}
+
+QPushButton:disabled{
+background-color: #EOEOEO;
+color: #AAAAAA;
+border: 2px solid #CCCCCC;
+}</string>
+          </property>
+          <property name="text">
+           <string>İLERİ</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../../../../Documents/hyperush/pic.qrc">
+            <normaloff>:/ileri/ileri.png</normaloff>:/ileri/ileri.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Preferred</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_back">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>60</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+background-color: #5296D5;
+background-image: linear-gradient(to bottom, #E57373, #E53935);
+color: rgb(255, 217, 200);
+font: 22pt;
+font-weight: bold;
+border-radius: 10px;
+border: 6px solid #437EB4;
+padding: 10px;
+text-align: center;
+}
+
+QPushButton:hover {
+background-color: #437EB4;
+background-image: linear-gradient(to bottom, #EF5350, #C62828);
+border: 2px solid #3972AE;
+}
+
+QPushButton:pressed{
+background-color: #437EB4;
+background-image: linear-gradient(to bottom, #EF5350, #B71C1C);
+border: 2px solid   #3972AE;
+padding-left: 6p;
+padding-top: 6px;
+}
+
+QPushButton:disabled{
+background-color: #EOEOEO;
+color: #AAAAAA;
+border: 2px solid #CCCCCC;
+}</string>
+          </property>
+          <property name="text">
+           <string>GERİ</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../../../../Documents/hyperush/pic.qrc">
+            <normaloff>:/geri/geri.png</normaloff>:/geri/geri.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_6">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Preferred</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_16" stretch="0">
+      <property name="spacing">
+       <number>12</number>
+      </property>
+      <property name="leftMargin">
+       <number>12</number>
+      </property>
+      <property name="topMargin">
+       <number>12</number>
+      </property>
+      <property name="rightMargin">
+       <number>12</number>
+      </property>
+      <property name="bottomMargin">
+       <number>12</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_10">
+        <property name="spacing">
+         <number>12</number>
+        </property>
+        <property name="leftMargin">
+         <number>12</number>
+        </property>
+        <property name="topMargin">
+         <number>12</number>
+        </property>
+        <property name="rightMargin">
+         <number>12</number>
+        </property>
+        <property name="bottomMargin">
+         <number>12</number>
+        </property>
+        <item>
+         <widget class="QFrame" name="frame_6">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_9">
+           <item>
+            <widget class="QLabel" name="label_13">
+             <property name="styleSheet">
+              <string notr="true">font:18pt &quot;Chakra Petch&quot;;
+color: rgb(214, 214, 214);</string>
+             </property>
+             <property name="text">
+              <string>POZİSYON(m)</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_position">
+             <property name="font">
+              <font>
+               <family>Chakra Petch</family>
+               <pointsize>18</pointsize>
+               <italic>false</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+font: 700 18pt &quot;Chakra Petch&quot;;</string>
+             </property>
+             <property name="text">
+              <string>X : 
+Y :
+Z :</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_7">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_11">
+           <item>
+            <widget class="QLabel" name="label_14">
+             <property name="styleSheet">
+              <string notr="true">font:18pt &quot;Chakra Petch&quot;;
+color: rgb(214, 214, 214);</string>
+             </property>
+             <property name="text">
+              <string>HIZ(m/s)</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_speed">
+             <property name="font">
+              <font>
+               <family>Chakra Petch</family>
+               <pointsize>18</pointsize>
+               <italic>false</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+font: 700 18pt &quot;Chakra Petch&quot;;</string>
+             </property>
+             <property name="text">
+              <string>X :
+Y :
+Z :</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_8">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_12">
+           <item>
+            <widget class="QLabel" name="label_26">
+             <property name="styleSheet">
+              <string notr="true">font:18pt &quot;Chakra Petch&quot;;
+color: rgb(214, 214, 214);</string>
+             </property>
+             <property name="text">
+              <string>İVME(m/s²)</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_acc">
+             <property name="font">
+              <font>
+               <family>Chakra Petch</family>
+               <pointsize>18</pointsize>
+               <italic>false</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+font: 700 18pt &quot;Chakra Petch&quot;;</string>
+             </property>
+             <property name="text">
+              <string>X :
+Y :
+Z :</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_6">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Preferred</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_9">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_13">
+           <item>
+            <widget class="QLabel" name="label_28">
+             <property name="styleSheet">
+              <string notr="true">font:18pt &quot;Chakra Petch&quot;;
+color: rgb(214, 214, 214);</string>
+             </property>
+             <property name="text">
+              <string>YÖNELİM(°)</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_ori">
+             <property name="font">
+              <font>
+               <family>Chakra Petch</family>
+               <pointsize>16</pointsize>
+               <italic>false</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+font: 700 16pt &quot;Chakra Petch&quot;;</string>
+             </property>
+             <property name="text">
+              <string>Roll :
+Pitch :
+Yaw :</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_7">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Preferred</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_t">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_14">
+           <item>
+            <widget class="QLabel" name="label_30">
+             <property name="styleSheet">
+              <string notr="true">font:18pt &quot;Chakra Petch&quot;;
+color: rgb(214, 214, 214);</string>
+             </property>
+             <property name="text">
+              <string>SICAKLIK(°C)</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_temp">
+             <property name="font">
+              <font>
+               <family>Chakra Petch</family>
+               <pointsize>18</pointsize>
+               <italic>false</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+font: 700 18pt &quot;Chakra Petch&quot;;</string>
+             </property>
+             <property name="text">
+              <string>T1 :
+T2 :</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_8">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Preferred</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_11">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_15">
+           <item>
+            <widget class="QLabel" name="label_32">
+             <property name="styleSheet">
+              <string notr="true">font:18pt &quot;Chakra Petch&quot;;
+color: rgb(214, 214, 214);</string>
+             </property>
+             <property name="text">
+              <string>GÜÇ TÜKETİMİ(Watt)</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_watt_2">
+             <property name="font">
+              <font>
+               <family>Chakra Petch</family>
+               <pointsize>16</pointsize>
+               <italic>false</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+font: 700 16pt &quot;Chakra Petch&quot;;</string>
+             </property>
+             <property name="text">
+              <string>560</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_logo">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#frame_logo{
+	image: url(:/logo/Untitled design.png);
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1660</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../../../../../Documents/hyperush/pic.qrc"/>
+ </resources>
+ <connections/>
+</ui>
