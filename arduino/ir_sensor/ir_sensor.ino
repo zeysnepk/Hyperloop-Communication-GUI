@@ -35,38 +35,16 @@ void loop() {
 
     // Update position based on lane count
     if (lanes <= 75) {
-      if (lanes == 1) {
-        position += 6;
-        distance = 6;
-      }
-      else if (lanes <= 21) {
-        position += 4;
-        distance = 4;
-      }
-      else if (lanes <= 41) {
-        position += 0.1;
-        distance = 0.1;
-      }
-      else if (lanes == 42) {
-        position += 2;
-        distance = 2;
-      }
-      else if (lanes <= 54) {
-        position += 4;
-        distance = 4;
-      }
-      else if (lanes <= 64) {
-        position += 0.1;
-        distance = 0.1;
-      }
-      else if (lanes == 65) {
-        position += 3;
-        distance = 3;
-      }
-      else if (lanes > 64 && lanes <= 75) {
-        position += 4;
-        distance = 4;
-      }
+        if (lanes == 1) distance = 6;
+        else if (lanes <= 21) distance = 4;
+        else if (lanes <= 41) distance = 0.1;
+        else if (lanes == 42) distance = 2;
+        else if (lanes <= 54) distance = 4;
+        else if (lanes <= 64) distance = 0.1;
+        else if (lanes == 65) distance = 3;
+        else distance = 4;
+        
+        position += distance;
 
       beforeIrStat = irSensorStat;
 
